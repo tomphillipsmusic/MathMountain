@@ -30,6 +30,7 @@ struct ContentView: View {
                 Spacer()
                 
                 Text("3 + 5")
+                    .font(.largeTitle)
                     .lineLimit(1)
                     .padding()
                     .background(.gray)
