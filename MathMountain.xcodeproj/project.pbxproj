@@ -11,6 +11,7 @@
 		3ECC77BE298D8BFE0073B507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC77BD298D8BFE0073B507 /* ContentView.swift */; };
 		3ECC77C0298D8C000073B507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC77BF298D8C000073B507 /* Assets.xcassets */; };
 		3ECC77C4298D8C000073B507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ECC77C3298D8C000073B507 /* Preview Assets.xcassets */; };
+		3ECC77CB298D8CEB0073B507 /* BlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ECC77CA298D8CEB0073B507 /* BlockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3ECC77BF298D8C000073B507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ECC77C1298D8C000073B507 /* MathMountain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MathMountain.entitlements; sourceTree = "<group>"; };
 		3ECC77C3298D8C000073B507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ECC77CA298D8CEB0073B507 /* BlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3ECC77BB298D8BFE0073B507 /* MathMountainApp.swift */,
 				3ECC77BD298D8BFE0073B507 /* ContentView.swift */,
+				3ECC77CA298D8CEB0073B507 /* BlockView.swift */,
 				3ECC77BF298D8C000073B507 /* Assets.xcassets */,
 				3ECC77C1298D8C000073B507 /* MathMountain.entitlements */,
 				3ECC77C2298D8C000073B507 /* Preview Content */,
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ECC77BE298D8BFE0073B507 /* ContentView.swift in Sources */,
+				3ECC77CB298D8CEB0073B507 /* BlockView.swift in Sources */,
 				3ECC77BC298D8BFE0073B507 /* MathMountainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

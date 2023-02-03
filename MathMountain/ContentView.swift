@@ -8,14 +8,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    let answer = 8
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ZStack {
+            Image("background")
+                .resizable()
+                .scaledToFill()
+            
+            VStack {
+                Spacer()
+                ForEach(1..<6) { number in
+                    
+                    HStack {
+                        ForEach(0..<number) { _ in
+                            BlockView(number: Int.random(in: 0...9), answer: answer)
+                        }
+                    }
+                }
+                
+                Spacer()
+                
+                Text("3 + 5")
+                    .lineLimit(1)
+                    .padding()
+                    .background(.gray)
+                    .cornerRadius(8)
+            }
+            .padding()
+
         }
-        .padding()
     }
 }
 
