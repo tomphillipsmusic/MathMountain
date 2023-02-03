@@ -18,7 +18,6 @@ struct BlockView: View {
             .lineLimit(1)
             .padding()
             .background(.gray)
-            .opacity(isDestroyed ? 0.0 : 1.0)
             .cornerRadius(8)
             .frame(minWidth: UIScreen.main.bounds.width * 0.125)
     }
