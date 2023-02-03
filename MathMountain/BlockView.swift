@@ -24,7 +24,9 @@ struct BlockView: View {
             .frame(minWidth: UIScreen.main.bounds.width * 0.125)
             .onTapGesture {
                 if number == answer {
-                    isDestroyed = true
+                    withAnimation {
+                        isDestroyed = true
+                    }
                 }
             }
     }
