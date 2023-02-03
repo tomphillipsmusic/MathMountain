@@ -19,7 +19,16 @@ struct BlockView: View {
             .padding()
             .background(.gray)
             .cornerRadius(8)
+            .opacity(isDestroyed ?
+                     0.0 : 1.0)
             .frame(minWidth: UIScreen.main.bounds.width * 0.125)
+            .onTapGesture {
+                if number == answer {
+                    withAnimation {
+                        isDestroyed = true
+                    }
+                }
+            }
     }
 }
 
